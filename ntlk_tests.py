@@ -4,7 +4,7 @@ from nltk.chat.util import Chat, reflections
 nltk.download('punkt')
 
 conversation_samples = [
-    ("Hi", "Hello! How can I help you today?"),
+    (r"Hi|Hello", "Hello! How can I help you today?"),
     ("What's your name?", "I'm a friendly chatbot."),
     ("How are you?", "I'm doing well, thank you! How about you?"),
     ("Tell me a joke", "Sure, here's one: Why don’t scientists trust atoms? Because they make up everything!"),
